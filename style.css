@@ -335,6 +335,9 @@ textarea{
 .navMobile li a:hover{
     color: var(--Dove-gray);
 }
+li a:hover{
+    color: white;
+}
 @media screen and (max-width: 950px){
     .navMobile{
         display: flex;
@@ -425,14 +428,24 @@ textarea{
         width: 90%;
     }
     .stacks{
-        gap: 0;
-
+        gap: 1rem;
+        flex-wrap: wrap;
     }
     .stacks img{
         width: auto;
-        transform: scale(0.6);
+        /* transform: scale(0.6); */
     }
     .contactForm button{
-        width: 60%;
+        width: 45%;
+        padding: 0.3rem;
+    }
+    .innerMain{
+        margin-top: 6rem;
+    }
+    textarea{
+        height: 6rem;
+    }
+    .contactForm input{
+        padding: 0.4rem 0rem;
     }
 }
