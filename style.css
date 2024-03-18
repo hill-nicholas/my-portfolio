@@ -170,6 +170,9 @@ main{
     display: flex;
     gap: 1rem;
 }
+#nextIcon{
+    width: 50px;
+}
 .projectsDiv{
     width: 100%;
     display: flex;
